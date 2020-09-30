@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Como usar HTML</title>
+        <meta charset="utf-8">
+        <style>
+            body{
+                font-family: 'Arial', sans-serif;
+            }
+            .rotate {
+                 animation: rotation 13s infinite linear;
+            }
+
+            @keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+              transform: rotate(359deg);
+            }
+}
+        </style>
+    </head>
+    <body>
+        <img class="rotate" draggable="false" src="tempsnip.png">
+    </body>
+</html>
